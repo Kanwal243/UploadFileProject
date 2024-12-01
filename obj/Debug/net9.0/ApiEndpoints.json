@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "UploadFileProject.Controllers.UploadFileController",
+    "Method": "ReadRecord",
+    "RelativePath": "api/UploadFile/ReadRecord",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UploadFileProject.Controllers.UploadFileController",
+    "Method": "UploadExcelFile",
+    "RelativePath": "api/UploadFile/UploadExcelFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
