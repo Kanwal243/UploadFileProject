@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|c:\\users\\dell\\desktop\\project\\file\\uploadfileproject\\uploadfileproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|solutionrelative:uploadfileproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|c:\\users\\dell\\desktop\\project\\file\\uploadfileproject\\dataaccesslayer\\uploadfiledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|solutionrelative:dataaccesslayer\\uploadfiledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|c:\\users\\dell\\desktop\\project\\file\\uploadfileproject\\dataaccesslayer\\iuploadfiledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|solutionrelative:dataaccesslayer\\iuploadfiledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|c:\\users\\dell\\desktop\\project\\file\\uploadfileproject\\controllers\\uploadfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|solutionrelative:controllers\\uploadfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|c:\\users\\dell\\desktop\\project\\file\\uploadfileproject\\commonlayer\\model\\uploadcsvfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|solutionrelative:commonlayer\\model\\uploadcsvfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|c:\\users\\dell\\desktop\\project\\file\\uploadfileproject\\commonlayer\\model\\uploadexcelfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|solutionrelative:commonlayer\\model\\uploadexcelfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +31,16 @@
       "RelativeMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|solutionrelative:commonlayer\\model\\readrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|c:\\users\\dell\\desktop\\project\\file\\uploadfileproject\\controllers\\uploadfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|solutionrelative:controllers\\uploadfilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|c:\\users\\dell\\desktop\\project\\file\\uploadfileproject\\commonlayer\\model\\deleterecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|solutionrelative:commonlayer\\model\\deleterecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|c:\\users\\dell\\desktop\\project\\file\\uploadfileproject\\dataaccesslayer\\uploadfiledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|solutionrelative:dataaccesslayer\\uploadfiledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|c:\\users\\dell\\desktop\\project\\file\\uploadfileproject\\commonutility\\sqlqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|solutionrelative:commonutility\\sqlqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|c:\\users\\dell\\desktop\\project\\file\\uploadfileproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|c:\\users\\dell\\desktop\\project\\file\\uploadfileproject\\dataaccesslayer\\iuploadfiledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|solutionrelative:dataaccesslayer\\iuploadfiledl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|c:\\users\\dell\\desktop\\project\\file\\uploadfileproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -33,14 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|c:\\users\\dell\\desktop\\project\\file\\uploadfileproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|c:\\users\\dell\\desktop\\project\\file\\uploadfileproject\\uploadfileproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|solutionrelative:uploadfileproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|c:\\users\\dell\\desktop\\project\\file\\uploadfileproject\\commonutility\\sqlqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|solutionrelative:commonutility\\sqlqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B947395A-8BA7-480D-AE25-338D05725106}|UploadFileProject.csproj|c:\\users\\dell\\desktop\\project\\file\\uploadfileproject\\sqlqueries.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -54,67 +62,132 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReadRecord.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\CommonLayer\\Model\\ReadRecord.cs",
-              "RelativeDocumentMoniker": "CommonLayer\\Model\\ReadRecord.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\CommonLayer\\Model\\ReadRecord.cs",
-              "RelativeToolTip": "CommonLayer\\Model\\ReadRecord.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvwYAAAArAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "UploadCsvFile.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\CommonLayer\\Model\\UploadCsvFile.cs",
+              "RelativeDocumentMoniker": "CommonLayer\\Model\\UploadCsvFile.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\CommonLayer\\Model\\UploadCsvFile.cs",
+              "RelativeToolTip": "CommonLayer\\Model\\UploadCsvFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T17:15:14.73Z",
+              "WhenOpened": "2024-12-04T17:42:27.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UploadFileController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\Controllers\\UploadFileController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UploadFileController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\Controllers\\UploadFileController.cs",
-              "RelativeToolTip": "Controllers\\UploadFileController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAcwDoAAAAIAAAAAAAAAA==",
+              "Title": "IUploadFileDL.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\DataAccessLayer\\IUploadFileDL.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\IUploadFileDL.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\DataAccessLayer\\IUploadFileDL.cs",
+              "RelativeToolTip": "DataAccessLayer\\IUploadFileDL.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T17:38:40.795Z",
+              "WhenOpened": "2024-11-30T17:39:49.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "UploadFileDL.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\DataAccessLayer\\UploadFileDL.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\UploadFileDL.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\DataAccessLayer\\UploadFileDL.cs",
               "RelativeToolTip": "DataAccessLayer\\UploadFileDL.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAmwEkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAMgAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T17:50:05.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UploadFileController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\Controllers\\UploadFileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UploadFileController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\Controllers\\UploadFileController.cs",
+              "RelativeToolTip": "Controllers\\UploadFileController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADYAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:38:40.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReadRecord.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\CommonLayer\\Model\\ReadRecord.cs",
+              "RelativeDocumentMoniker": "CommonLayer\\Model\\ReadRecord.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\CommonLayer\\Model\\ReadRecord.cs",
+              "RelativeToolTip": "CommonLayer\\Model\\ReadRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:15:14.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UploadFileProject.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\UploadFileProject.csproj",
+              "RelativeDocumentMoniker": "UploadFileProject.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\UploadFileProject.csproj",
+              "RelativeToolTip": "UploadFileProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-01T13:16:35.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "UploadExcelFile.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\CommonLayer\\Model\\UploadExcelFile.cs",
               "RelativeDocumentMoniker": "CommonLayer\\Model\\UploadExcelFile.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\CommonLayer\\Model\\UploadExcelFile.cs",
               "RelativeToolTip": "CommonLayer\\Model\\UploadExcelFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAASwAsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T19:42:09.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SqlQueries.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\CommonUtility\\SqlQueries.cs",
+              "RelativeDocumentMoniker": "CommonUtility\\SqlQueries.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\CommonUtility\\SqlQueries.cs",
+              "RelativeToolTip": "CommonUtility\\SqlQueries.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T18:10:12.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "DeleteRecord.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\CommonLayer\\Model\\DeleteRecord.cs",
+              "RelativeDocumentMoniker": "CommonLayer\\Model\\DeleteRecord.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\CommonLayer\\Model\\DeleteRecord.cs",
+              "RelativeToolTip": "CommonLayer\\Model\\DeleteRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T15:30:13.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -122,11 +195,12 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T13:22:48.942Z"
+              "WhenOpened": "2024-12-01T13:22:48.942Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -134,11 +208,12 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAABEAAAAAAAAAAAAgwCQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-01T15:46:37.804Z"
+              "WhenOpened": "2024-12-01T15:46:37.804Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -151,44 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUploadFileDL.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\DataAccessLayer\\IUploadFileDL.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\IUploadFileDL.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\DataAccessLayer\\IUploadFileDL.cs",
-              "RelativeToolTip": "DataAccessLayer\\IUploadFileDL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T17:39:49.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UploadFileProject.csproj",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\UploadFileProject.csproj",
-              "RelativeDocumentMoniker": "UploadFileProject.csproj",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\UploadFileProject.csproj",
-              "RelativeToolTip": "UploadFileProject.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-01T13:16:35.12Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SqlQueries.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\CommonUtility\\SqlQueries.cs",
-              "RelativeDocumentMoniker": "CommonUtility\\SqlQueries.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\CommonUtility\\SqlQueries.cs",
-              "RelativeToolTip": "CommonUtility\\SqlQueries.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T18:10:12.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "SqlQueries.xml",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\FILE\\UploadFileProject\\SqlQueries.xml",
               "RelativeDocumentMoniker": "SqlQueries.xml",
@@ -196,7 +234,8 @@
               "RelativeToolTip": "SqlQueries.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-11-30T18:11:24.44Z"
+              "WhenOpened": "2024-11-30T18:11:24.44Z",
+              "EditorCaption": ""
             }
           ]
         }

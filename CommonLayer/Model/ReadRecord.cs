@@ -12,6 +12,8 @@
     }
     public class ReadRecordRequest
     {
+        public int PageNumber { get; set; }
+        public int NumberofRecordPerPage { get; set; }
     }
     public class ReadRecordResponse
     {

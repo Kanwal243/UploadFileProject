@@ -1,4 +1,5 @@
 ﻿using ExcelDataReader;
+using LumenWorks.Framework.IO.Csv;
 using MySql.Data.MySqlClient;
 using System.Data;
 using System.Data.Common;
@@ -16,7 +17,46 @@ namespace UploadFileProject.DataAccessLayer
             _mySqlConnection = new MySqlConnection(_configuration["ConnectionStrings:MySqlDBConnectionString"]);
         }
 
-        public async Task<ReadRecordResponse> ReadRecord()
+        public async Task<DeleteRecordResponse> DeleteRecord(DeleteRecordRequest request)
+        {
+            DeleteRecordResponse response = new DeleteRecordResponse();
+            response.IsSuccess = true;
+            response.Message = "Successful";
+            try
+            {
+                if (_mySqlConnection.State != ConnectionState.Open)
+                {
+                    await _mySqlConnection.OpenAsync();
+                }
+                string SqlQuery = @"DELETE FROM sample.bulkuplaodtable where UserID = @UserID";
+
+                using (MySqlCommand sqlCommand = new MySqlCommand(SqlQuery, _mySqlConnection))
+                {
+                    sqlCommand.CommandType = CommandType.Text;
+                    sqlCommand.CommandTimeout = 180;
+                    sqlCommand.Parameters.AddWithValue("@UserID",request.UserId);
+                    int status = await sqlCommand.ExecuteNonQueryAsync();
+                    if (status <= 0)
+                    {
+                        response.IsSuccess = false;
+                        response.Message = "Query is not executed";
+                        return response;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                response.IsSuccess = false;
+                response.Message = ex.Message;
+            }
+            finally
+            {
+                await _mySqlConnection.CloseAsync();
+                await _mySqlConnection.DisposeAsync();
+            }
+            return response;
+        }
+        public async Task<ReadRecordResponse> ReadRecord(ReadRecordRequest request)
         {
             ReadRecordResponse response = new ReadRecordResponse();
             response.IsSuccess = true;
@@ -27,12 +67,15 @@ namespace UploadFileProject.DataAccessLayer
                 {
                     await _mySqlConnection.OpenAsync();
                 }
-                string SqlQuery = @"SELECT * FROM sample.bulkuplaodtable";
+                string SqlQuery = @"SELECT * FROM sample.bulkuplaodtable LIMIT @Offset, @RecordPerPage";
 
                 using (MySqlCommand sqlCommand = new MySqlCommand(SqlQuery, _mySqlConnection))
                 {
+                    int Offset = (request.PageNumber - 1) * request.NumberofRecordPerPage;
                     sqlCommand.CommandType = CommandType.Text;
                     sqlCommand.CommandTimeout = 180;
+                    sqlCommand.Parameters.AddWithValue("@Offset", Offset);
+                    sqlCommand.Parameters.AddWithValue("@RecordPerPage", request.NumberofRecordPerPage);
                     using (DbDataReader sqlDataReader = await sqlCommand.ExecuteReaderAsync())
                         if (sqlDataReader.HasRows)
                         {
@@ -71,6 +114,88 @@ namespace UploadFileProject.DataAccessLayer
                 await _mySqlConnection.DisposeAsync();
             }
             return response;
+        }
+
+        public async Task<UploadCsvFileResponse> UploadCsvFile(UploadCsvFileRequest request, string Path)
+        {
+            {
+                UploadCsvFileResponse response = new UploadCsvFileResponse();
+                List<ExcelBulkUploadParameter> parameters = new List<ExcelBulkUploadParameter>();
+                response.IsSuccess = true;
+                response.Message = "Successful";
+                try
+                {
+
+                    if (request.File.FileName.ToLower().Contains(".csv"))
+                    {
+                        DataTable dt = new DataTable();
+                        using (var csvReader = new CsvReader(new StreamReader(File.OpenRead(Path)), true))
+                        {
+                            dt.Load(csvReader);
+                        }
+                        for (int i = 0; i < dt.Rows.Count; i++)
+                        {
+                            ExcelBulkUploadParameter row = new ExcelBulkUploadParameter();
+                            row.UserName = dt.Rows[i][0] != null ? Convert.ToString(dt.Rows[i][0]) : "-1";
+                            row.EmailID = dt.Rows[i][1] != null ? Convert.ToString(dt.Rows[i][1]) : "-1";
+                            row.MobileNumber = dt.Rows[i][2] != null ? Convert.ToString(dt.Rows[i][2]) : "-1";
+                            row.Age = dt.Rows[i][3] != null ? Convert.ToInt32(dt.Rows[i][3]) : -1;
+                            row.Salary = dt.Rows[i][4] != null ? Convert.ToInt32(dt.Rows[i][4]) : -1;
+                            row.Gender = dt.Rows[i][5] != null ? Convert.ToString(dt.Rows[i][5]) : "-1";
+                            parameters.Add(row);
+
+                        }
+                    }
+                    else
+                    {
+                        response.IsSuccess = false;
+                        response.Message = "Invalid File";
+                        return response;
+                    }
+                    if (parameters.Count > 0)
+                    {
+                        if (_mySqlConnection.State != ConnectionState.Open)
+                        {
+                            await _mySqlConnection.OpenAsync();
+                        }
+                        string SqlQuery = @"INSERT INTO SAMPLE.bulkuplaodtable(UserName,EmailID,MobileNumber,Age,Salary,Gender) VALUES (@UserName,@EmailID,@MobileNumber,@Age,@Salary,@Gender)";
+
+                        foreach (ExcelBulkUploadParameter rows in parameters)
+                        {
+                            using (MySqlCommand sqlCommand = new MySqlCommand(SqlQuery, _mySqlConnection))
+                            {
+                                sqlCommand.CommandType = CommandType.Text;
+                                sqlCommand.CommandTimeout = 180;
+                                sqlCommand.Parameters.AddWithValue("@UserName", rows.UserName);
+                                sqlCommand.Parameters.AddWithValue("@EmailID", rows.EmailID);
+                                sqlCommand.Parameters.AddWithValue("@MobileNumber", rows.MobileNumber);
+                                sqlCommand.Parameters.AddWithValue("@Age", rows.Age);
+                                sqlCommand.Parameters.AddWithValue("@Salary", rows.Salary);
+                                sqlCommand.Parameters.AddWithValue("@Gender", rows.Gender);
+
+                                int Status = await sqlCommand.ExecuteNonQueryAsync();
+                                if (Status <= 0)
+                                {
+                                    response.IsSuccess = false;
+                                    response.Message = "Query Not Executed";
+                                    return response;
+                                }
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    response.IsSuccess = false;
+                    response.Message = ex.Message;
+                }
+                finally
+                {
+                    await _mySqlConnection.CloseAsync();
+                    await _mySqlConnection.DisposeAsync();
+                }
+                return response;
+            }
         }
 
         public async Task<UploadExcelFileResponse> UploadExcelFile(UploadExcelFileRequest request, string Path)
@@ -160,5 +285,8 @@ namespace UploadFileProject.DataAccessLayer
             }
             return response;
         }
+
+        
+
     }
 }

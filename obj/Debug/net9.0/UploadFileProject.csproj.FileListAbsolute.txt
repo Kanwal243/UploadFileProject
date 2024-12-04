@@ -54,3 +54,5 @@ C:\Users\DELL\Desktop\Project\FILE\UploadFileProject\obj\Debug\net9.0\refint\Upl
 C:\Users\DELL\Desktop\Project\FILE\UploadFileProject\obj\Debug\net9.0\UploadFileProject.pdb
 C:\Users\DELL\Desktop\Project\FILE\UploadFileProject\obj\Debug\net9.0\UploadFileProject.genruntimeconfig.cache
 C:\Users\DELL\Desktop\Project\FILE\UploadFileProject\obj\Debug\net9.0\ref\UploadFileProject.dll
+C:\Users\DELL\Desktop\Project\FILE\UploadFileProject\obj\Debug\net9.0\UploadFileProject.sourcelink.json
+C:\Users\DELL\Desktop\Project\FILE\UploadFileProject\bin\Debug\net9.0\LumenWorks.Framework.IO.dll

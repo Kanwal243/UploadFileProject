@@ -1,12 +1,50 @@
 [
   {
     "ContainingType": "UploadFileProject.Controllers.UploadFileController",
-    "Method": "ReadRecord",
-    "RelativePath": "api/UploadFile/ReadRecord",
-    "HttpMethod": "GET",
+    "Method": "DeleteRecord",
+    "RelativePath": "api/UploadFile/DeleteRecord",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UploadFileProject.CommonLayer.Model.DeleteRecordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UploadFileProject.Controllers.UploadFileController",
+    "Method": "ReadRecord",
+    "RelativePath": "api/UploadFile/ReadRecord",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UploadFileProject.CommonLayer.Model.ReadRecordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UploadFileProject.Controllers.UploadFileController",
+    "Method": "UploadCsvFile",
+    "RelativePath": "api/UploadFile/UploadCsvFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
